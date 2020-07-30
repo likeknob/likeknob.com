@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Interesting Title on My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content in Interesting Title on My New Hugo Site</description>
+    <title>Interesting Title on LikeKnob</title>
+    <link>https://likeknob.com/</link>
+    <description>Recent content in Interesting Title on LikeKnob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jul 2020 12:12:35 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://likeknob.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Imprint</title>
-      <link>http://example.org/imprint/</link>
+      <link>https://likeknob.com/imprint/</link>
       <pubDate>Sat, 18 Jul 2020 12:12:35 +0200</pubDate>
       
-      <guid>http://example.org/imprint/</guid>
+      <guid>https://likeknob.com/imprint/</guid>
       <description>Website Owner and Person responsible for the content according to § 55 RStV Ramon Reschke
 Paul-Lincke-Straße 18
 66113 Saarbrücken
@@ -29,10 +29,10 @@ Should this information nevertheless be used for the above-mentioned purposes, I
     
     <item>
       <title>Privacy Policy</title>
-      <link>http://example.org/privacy/</link>
+      <link>https://likeknob.com/privacy/</link>
       <pubDate>Sat, 18 Jul 2020 12:08:41 +0200</pubDate>
       
-      <guid>http://example.org/privacy/</guid>
+      <guid>https://likeknob.com/privacy/</guid>
       <description>I (&amp;ldquo;LikeKnob&amp;rdquo;, &amp;ldquo;me&amp;rdquo;, &amp;ldquo;my&amp;rdquo;) am responsible for the data processing.
 This privacy policy applies to all information collected through my websites (such as likeknob.com).
 The short version I am using Simple Analytics as a way to see some statistics about my websites. However they don&amp;rsquo;t store or collect any personal data from you. For more information on what Simple Analytics collects (or mostly what they don&amp;rsquo;t collect) click here.
