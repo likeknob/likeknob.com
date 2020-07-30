@@ -1,0 +1,3 @@
+Contact: mailto:﻿security@likeknob.com
+Encryption: https://likeknob.com/pgp-key.asc
+Preferred-Languages: en,de
