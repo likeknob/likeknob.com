@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+
+    <title>Client Library | LikeKnob</title>
+    <link rel="prev" href="https://likeknob.com/docs/gdpr/" />
+    
+
+    <link rel='shortcut icon' type='image/x-icon' href='/img/favicon.ico' />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon_16x16.png">
+
+    <link rel="stylesheet" href="/style/style.css">
+
+    <script async defer data-skip-dnt="true" src="https://a.likeknob.com/app.js"></script>
+    <noscript><img src="https://a.likeknob.com/image.gif" alt=""></noscript>
+
+    <link rel="canonical" href="https://likeknob.com/docs/client-library/" />
+    
+        <meta name="twitter:card" content="summary_large_image" />
+    
+    
+        <meta name="twitter:site" content="@eitherwayio" />
+        <meta name="twitter:creator" content="@eitherwayio" />
+    
+
+    <meta property="og:locale" content="">
+    <meta property="og:url" content="https://likeknob.com/docs/client-library/">
+    <meta property="og:site_name" content="LikeKnob">
+    <meta property="og:title" content="Client Library | LikeKnob">
+
+    
+        <meta property="og:image" content="https://likeknob.com/img/apple-touch-icon.png">
+
+    <meta name="description" content="">
+    <meta property="og:description" content="">
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Client Library | LikeKnob",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/likeknob.com\/docs\/client-library\/"
+  },
+  
+  "genre": "docs",
+  
+  "wordcount":  298 ,
+  "url": "https:\/\/likeknob.com\/docs\/client-library\/",
+  "datePublished": "2021-03-29T16:56:52\u002b02:00",
+  "dateModified": "2021-03-29T16:56:52\u002b02:00",
+  "license": "All rights reserved.",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ramon"
+  },
+  "description": ""
+}
+</script>
+</head>
+<body>
+<div class="o-header c-landing-header">
+    <div class="o-header__header">
+        <a href="https://likeknob.com/" aria-label="Back to Homepage"><img class="o-header__logo o-logo"
+                                                                         src="/img/logo-text.svg" alt=""></a>
+        <ul class="o-menu-list">
+            
+                <li class="o-menu-list__li"><a class="o-link o-menu-list__link o-menu-list__link--big" href="https://likeknob.com/docs">Documentation</a></li>
+            
+        </ul>
+    </div>
+    <div class="o-header__container ">
+        <div class="o-header__h1 o-h1-header ">
+            
+                <h1 class="o-h1-header__h1">
+                    Client Library
+                </h1>
+            
+            
+            
+        </div>
+        
+    </div>
+    <div class="o-header__fade"></div>
+</div>
+<div class="o-content-wrapper">
+    
+    <div class="o-content-wrapper__side">
+        
+        
+        <div class="o-vertical-menu">
+            <a href="https://likeknob.com/docs/"
+               class="o-link ">Introduction</a>
+            <ul class="">
+                
+                    <li class="o-footer__link-elem"><a
+                                class="o-footer__link o-link o-vertical-menu__link--active"
+                                href="https://likeknob.com/docs/client-library/">Client Library</a></li>
+                
+                    <li class="o-footer__link-elem"><a
+                                class="o-footer__link o-link "
+                                href="https://likeknob.com/docs/gdpr/">GDPR - What we collect from your users</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="o-content-wrapper__docs">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="o-pure-text-wrap"><p class="o-text">To get the most out of LikeKnob, you can take advantages of the advanced configuration object:</p>
+<p class="o-text">Don&rsquo;t know how to design? Don&rsquo;t know how to write JS, HTML or CSS? <a class="o-link" href="mailto:ramon@likeknob.com">Contact Me!</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">maxWidth</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">215</span> <span style="color:#75715e">// max width of rating bar and tooltip
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">defaultOptions</span> <span style="color:#f92672">=</span> {
+    <span style="color:#a6e22e">tooltipMessageWhenRatingAlreadySent</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Already sent!&#39;</span>,
+    <span style="color:#a6e22e">tooltipMessageWhenRatingIncomplete</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Specify a Rating first!&#39;</span>,
+    <span style="color:#a6e22e">tooltipMessageWhenRatingSent</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Rating sent!&#39;</span>,
+    <span style="color:#a6e22e">tooltipMessageWhenSentFailed</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Couldn\&#39;t send rating to server! Could you try again?&#39;</span>,
+    <span style="color:#a6e22e">tooltipDisplayInMS</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">2500</span>,
+    <span style="color:#a6e22e">cssReset</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>,
+    <span style="color:#a6e22e">question</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;What did you not like about this page?&#34;</span>,
+    <span style="color:#a6e22e">inputPlaceholder</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Type answer here...&#39;</span>,
+    <span style="color:#a6e22e">devMode</span><span style="color:#f92672">:</span> {
+        <span style="color:#a6e22e">bool</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>,  <span style="color:#75715e">// general dev mode switch, further options will not do anything if this is disabled // changes url to localhost
+</span><span style="color:#75715e"></span>        <span style="color:#a6e22e">sendData</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>, <span style="color:#75715e">// when false, sends &amp; saves no data
+</span><span style="color:#75715e"></span>    },
+    <span style="color:#a6e22e">ratingBarContainerClass</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#75715e">// all class options are directly set to the className attribute in JS, so multiple classes are separated through a space
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">questionContainerClass</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&#34;</span>,
+    <span style="color:#a6e22e">questionClass</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&#34;</span>,
+    <span style="color:#a6e22e">inputClass</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&#34;</span>,
+    <span style="color:#a6e22e">buttonContainerClass</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;&#39;</span>,
+    <span style="color:#a6e22e">sendButtonClass</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&#34;</span>,
+    <span style="color:#a6e22e">ratingBarContainerStyle</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;display: block; position:relative; max-width: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">maxWidth</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px;&#39;</span>,
+    <span style="color:#a6e22e">questionContainerStyle</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;display: block;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;margin-top: 1.5rem;&#39;</span>,
+    <span style="color:#a6e22e">questionStyle</span><span style="color:#f92672">:</span>
+        <span style="color:#e6db74">&#39;font-family: sans-serif;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;color: #000;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;font-size: 100%;&#39;</span>,
+    <span style="color:#a6e22e">inputStyle</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;background-color: #f7f7f7;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;outline: none;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;border: none;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;padding: .5rem;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;font-family: sans-serif;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;width: 100%;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;font-size: 100%;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;color: #6e6e6e;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;box-sizing: border-box;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;margin-top: .5rem;&#39;</span>,
+    <span style="color:#a6e22e">buttonContainerStyle</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;&#39;</span>,
+    <span style="color:#a6e22e">sendButtonStyle</span><span style="color:#f92672">:</span>
+        <span style="color:#e6db74">&#39;cursor: pointer;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;padding: .5rem;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;margin-top: 1rem;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;background: #000;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;color: #fff;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;font-family: sans-serif;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;transition: transform 0.5s ease;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;border: none;&#39;</span>,
+    <span style="color:#a6e22e">sendButtonHoverTransform</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
+    <span style="color:#a6e22e">tooltipStyle</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;width: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">maxWidth</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;background-color: #666666;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;color: #ffffff;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;text-align: center;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;padding: 5px 0;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;border-radius: 5px;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;position: absolute;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;z-index: 1;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;bottom: 125%;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;left: 50%;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;margin-left: -&#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">maxWidth</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;opacity: 0;&#39;</span> <span style="color:#f92672">+</span>
+        <span style="color:#e6db74">&#39;transition: opacity 0.6s;&#39;</span>
+}
+
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">rating1</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;rating&#39;</span>)
+
+<span style="color:#a6e22e">likeKnob</span>(<span style="color:#a6e22e">rating1</span>, <span style="color:#e6db74">&#34;&lt;uuid&gt;&#34;</span>, {})
+</code></pre></div></div>
+    </div>
+
+</div><div class="o-footer">
+    
+        <div class="o-footer__created o-footer__created_by">
+            <img src="/img/logo.svg" alt="" class="o-footer__logo">
+            by
+            <a href="https://twitter.com/eitherwayio" class="o-footer__twitter">@eitherwayio</a>
+        </div>
+    
+    <ul class="o-footer__link-list">
+        
+            <li class="o-footer__link-elem"><a class="o-footer__link o-link o-footer__link--big" href="mailto:ramon@likeknob.com">Contact me</a></li>
+        
+        
+            <li class="o-footer__link-elem"><a class="o-footer__link o-link" href="https://likeknob.com/imprint">Imprint</a></li>
+        
+            <li class="o-footer__link-elem"><a class="o-footer__link o-link" href="https://likeknob.com/privacy">Privacy Policy</a></li>
+        
+            <li class="o-footer__link-elem"><a class="o-footer__link o-link" href="https://likeknob.com/terms">Terms</a></li>
+        
+    </ul>
+</div></body>
+</html>
