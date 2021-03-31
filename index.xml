@@ -9,6 +9,28 @@
     <copyright>All rights reserved.</copyright>
     <lastBuildDate>Thu, 30 Jul 2020 11:00:35 +0200</lastBuildDate><atom:link href="https://likeknob.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Client Library</title>
+      <link>https://likeknob.com/docs/client-library/</link>
+      <pubDate>Mon, 29 Mar 2021 16:56:52 +0200</pubDate>
+      
+      <guid>https://likeknob.com/docs/client-library/</guid>
+      <description>To get the most out of LikeKnob, you can take advantages of the advanced configuration object:
+Don&amp;rsquo;t know how to design? Don&amp;rsquo;t know how to write JS, HTML or CSS? Contact Me!
+var maxWidth = 215 // max width of rating bar and tooltip var defaultOptions = { tooltipMessageWhenRatingAlreadySent: &amp;#39;Already sent!&amp;#39;, tooltipMessageWhenRatingIncomplete: &amp;#39;Specify a Rating first!&amp;#39;, tooltipMessageWhenRatingSent: &amp;#39;Rating sent!&amp;#39;, tooltipMessageWhenSentFailed: &amp;#39;Couldn\&amp;#39;t send rating to server! Could you try again?&amp;#39;, tooltipDisplayInMS: 2500, cssReset: false, question: &amp;#34;What did you not like about this page?</description>
+    </item>
+    
+    <item>
+      <title>GDPR - What we collect from your users</title>
+      <link>https://likeknob.com/docs/gdpr/</link>
+      <pubDate>Mon, 29 Mar 2021 16:56:35 +0200</pubDate>
+      
+      <guid>https://likeknob.com/docs/gdpr/</guid>
+      <description>The General Data Protection Regulation is a law which protects the data and privacy from all EU-citizens.
+The answers which your users provide to LikeKnob could be seen as personal data from regulators, so the GDPR also applies to LikeKnob.
+What I collect from your users  The rating The answer Parts of the URL (only the pathname, e.g. `/privacy) The date / timestamp when the rating was collected  Where this data is stored The data is store within a european (German) Data Center, so you don&amp;rsquo;t have to worry about Privacy Shield and data being exported out of the European Union.</description>
+    </item>
+    
+    <item>
       <title>Terms of Service</title>
       <link>https://likeknob.com/terms/</link>
       <pubDate>Thu, 04 Feb 2021 12:58:24 +0100</pubDate>
@@ -24,11 +46,8 @@ A. Definitions  &amp;ldquo;LikeKnob&amp;rdquo;, &amp;ldquo;I&amp;rdquo;, &amp;ld
       <pubDate>Sat, 18 Jul 2020 12:12:35 +0200</pubDate>
       
       <guid>https://likeknob.com/imprint/</guid>
-      <description>Website Owner and Person responsible for the content according to § 55 RStV Ramon Reschke
-Durchenbergstr. 13
-78315 Radolfzell
-E-Mail: hostmaster@likeknob.com
-Phone: 015678 316796
+      <description>Website Owner and Person responsible for the content according to § 55 RStV Ramon Reschke Durchenbergstr. 13 78315 Radolfzell
+E-Mail: hostmaster@likeknob.com Phone: 015678 316796
 All the contact information of me given on this website including any photos are explicitly for information purposes or to contact me.
 They shall not be used for sending advertisements, spam or the like.
 Should this information nevertheless be used for the above-mentioned purposes, I reserve the right to take legal action.</description>

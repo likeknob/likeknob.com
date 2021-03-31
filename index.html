@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.80.0" />
+	<meta name="generator" content="Hugo 0.81.0" />
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,51 +66,115 @@
 <body>
 <div class="o-header c-landing-header">
     <div class="o-header__header">
-        <a href="https://likeknob.com/" aria-label="Back to Homepage"><img class="o-header__logo o-logo" src="/img/logo-text.svg" alt=""></a>
+        <a href="https://likeknob.com/" aria-label="Back to Homepage"><img class="o-header__logo o-logo"
+                                                                         src="/img/logo-text.svg" alt=""></a>
+        <ul class="o-menu-list">
+            
+                <li class="o-menu-list__li"><a class="o-link o-menu-list__link o-menu-list__link--big" href="https://likeknob.com/docs">Documentation</a></li>
+            
+        </ul>
     </div>
-    <div class="o-header__h1 o-h1-header">
-        
-            <h1 class="o-h1-header__h1 c-landing-header__h1">
-                Want feedback? <br> Get a like button!
-            </h1>
-        
-        
-            <p class="o-text o-h1-header__description">
+    <div class="o-header__container c-landing-header__container">
+        <div class="o-header__h1 o-h1-header c-landing-header__h1-container">
+            
+                <h1 class="o-h1-header__h1 c-landing-header__h1">
+                    It's hard to get an email, but it's easy to get a rating & an answer!
+                </h1>
+            
+            
+                <p class="o-text o-h1-header__description">
                 <span class="c-landing-header__description" >
-                    A simple, privacy-friendly like button for your blog, product or website.
+                    A simple, privacy-friendly rating bar with a question for your blog, product or website.
                 </span>
-            </p>
-        
+                </p>
+            
+            <div class="c-landing-header__signup">
+                <a href="https://app.likeknob.com/auth/signup" class="o-button">SignUp here!</a>
+                </div>
+        </div>
+        <div class="c-landing-rating c-landing-header__rating">
+                <div class="c-landing-rating__container">
+                    <img class="c-landing-rating__drawn-text" src="/img/this-is-it.svg" alt="" loading="lazy"
+                         decoding="async">
+                    <div id="rating" class="c-landing-rating__bar">
+                        <p class="o-text o-text--small">How much did you like this landing page?</p>
+                    </div>
+                    <img class="c-landing-rating__wow" src="/img/wow.svg" alt="" loading="lazy" decoding="async">
+                </div>
+            </div>
+            <script src="https://scripts.likeknob.com/script.alpine.js"></script>
+            <script>
+                var rating1 = document.getElementById('rating')
+                likeKnob(rating1, "50886752-00f3-49d9-8675-93416412e2f8", {
+                    cssReset: false,
+                    question: "Why did/didn't you sign up?",
+                    questionStyle: "",
+                    questionClass: "o-text o-text--small"
+                })
+            </script>
     </div>
-    <img class="c-landing-header__mockup" src="/img/browser-mockup.svg" alt="">
     <div class="o-header__fade"></div>
 </div>
 <div class="o-content-wrapper">
-
+    
     <div class="o-content-wrapper__content c-landing-content">
+        <div class="c-landing-content__container">
+            <h2 class="o-h2"><span class="o-h2__inner">Why you will get more feedback</span></h2>
+            <p class="o-text">
+                Because LikeKnob is easy.
+
+                <strong>With your current feedback system, you will not hear from the visitors who didn't like your page.</strong>
+            </p>
+            <ul class="o-list">
+            <li class="o-list__item">
+                You might have a comment section, but most of your visitors will not comment. Because the comments will be public and most of these comment systems require a registration.
+            </li>
+            <li class="o-list__item">
+                You might have an e-mail linked on your page, but most of your visitors will not email you. Because E-Mailing is time intensive.
+            </li>
+            <li class="o-list__item">
+                You might have an analytics system, but you will not get any answers why your visitors liked your page. You have to find that out by trial and error.
+            </li>
+            </ul>
+        </div>
+
+        <div class="c-landing-content__container">
+            <h2 class="o-h2"><span class="o-h2__inner">Privacy / GDPR friendly!</span></h2>
+            <p class="o-text">
+                This app tries to save only necessary data and the data is saved in an German Data Center. Only the following data is saved from your users:
+            </p>
+            <ul class="o-list">
+                <li class="o-list__item">The answer from your user.</li>
+                <li class="o-list__item">The rating from your user.</li>
+                <li class="o-list__item">The date when your user answered the question.</li>
+            </ul>
+            <p class="o-text">This should make it easy for you to <a href="/docs/gdpr" class="o-link">comply with the GDPR</a>.</p>
+        </div>
+
+        <div class="c-landing-content__container">
+            <h2 class="o-h2"><span class="o-h2__inner">How it works</span></h2>
+            <p class="o-text">The code for using this project is relatively simple: it doesn't create an iframe or so. It's just a little JS snippet. If you want to read the full code
+                <a href="https://scripts.likeknob.com/script.js" class="o-link">just look at it</a>.</p>
+            <pre style="overflow-x: scroll; color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;padding: 15px;"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">"rating"</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">"https://scripts.likeknob.com/script.min.js"</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+&lt;<span style="color:#f92672">script</span>&gt;
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">rating1</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">'rating'</span>)
+    <span style="color:#a6e22e">likeKnob</span>(<span style="color:#a6e22e">rating1</span>, <span style="color:#e6db74">"&lt;uuid&gt;"</span>, {})
+&lt;/<span style="color:#f92672">script</span>&gt;
+</code></pre>
+        </div>
+
         <div class="c-landing-content__container c-landing-content__left">
-            <h2 class="o-h2 c-landing-content__h2">Know what you did best!</h2>
-            <p class="o-text">With a like button, you know what you did good. Improve your posts, product or docs.</p>
-        </div>
-        <div class="c-landing-content__container c-landing-content__right">
-            <h2 class="o-h2 c-landing-content__h2">Simple!</h2>
-            <p class="o-text">It's just a click for your users. And no hassle to implement for you. Just a bit of JavaScript. Privacy-friendly!</p>
-        </div>
-        <div class="c-landing-content__container c-landing-content__full">
-            <h2 class="o-h2">Interested?</h2>
-            <div class="o-mail-dialog">
-                <ul class="o-mail-dialog__why">
-                    <li class="o-mail-dialog__why-li">Be one of the first to be notified at launch</li>
-                    <li class="o-mail-dialog__why-li">Get the chance to be one of the beta testers</li>
-                    <li class="o-mail-dialog__why-li">Get a personal "thank you"-Mail from me</li>
-                </ul>
-                <div class="o-mail-dialog__input-container">
-                    <form class="o-single-submit-form" action="https://mail.likeknob.com/collect" method="post">
-                        <input type="email" name="mail" autocomplete="email" class="o-single-submit-form__input" placeholder="mail@example.com">
-                        <p class="o-single-submit-form__agree-text">I expressly agree to receive the newsletter and/or messages from LikeKnob.</p>
-                        <button type="submit" class="o-single-submit-form__button">Inform me about news!</button>
-                    </form>
+            <div class="c-review">
+                <div>
+                    <div class="c-review__bar c-rating-bar">
+                        <img src="/img/star.svg" alt="" class="c-rating-bar__star"><img src="/img/star.svg" alt="" class="c-rating-bar__star"><img src="/img/star.svg" alt="" class="c-rating-bar__star"><img src="/img/star.svg" alt="" class="c-rating-bar__star"><img src="/img/star.svg" alt="" class="c-rating-bar__star">
+                    </div>
                 </div>
+            <div class="o-quote">
+                <p class="o-text o-quote__q">"Best product ever! I use it every day and it's amazing!"</p>
+                <span class="o-text o-quote__author">- Me, Creator of LikeKnob</span>
+            </div>
             </div>
         </div>
     </div>
@@ -131,6 +195,8 @@
             <li class="o-footer__link-elem"><a class="o-footer__link o-link" href="https://likeknob.com/imprint">Imprint</a></li>
         
             <li class="o-footer__link-elem"><a class="o-footer__link o-link" href="https://likeknob.com/privacy">Privacy Policy</a></li>
+        
+            <li class="o-footer__link-elem"><a class="o-footer__link o-link" href="https://likeknob.com/terms">Terms</a></li>
         
     </ul>
 </div></body>
