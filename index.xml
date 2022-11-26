@@ -27,7 +27,7 @@ var maxWidth = 215 // max width of rating bar and tooltip var defaultOptions = {
       <guid>https://likeknob.com/docs/gdpr/</guid>
       <description>The General Data Protection Regulation is a law which protects the data and privacy from all EU-citizens.
 The answers which your users provide to LikeKnob could be seen as personal data from regulators, so the GDPR also applies to LikeKnob.
-What I collect from your users  The rating The answer Parts of the URL (only the pathname, e.g. `/privacy) The date / timestamp when the rating was collected  Where this data is stored The data is store within a european (German) Data Center, so you don&amp;rsquo;t have to worry about Privacy Shield and data being exported out of the European Union.</description>
+What I collect from your users The rating The answer Parts of the URL (only the pathname, e.g. `/privacy) The date / timestamp when the rating was collected Where this data is stored The data is store within a european (German) Data Center, so you don&amp;rsquo;t have to worry about Privacy Shield and data being exported out of the European Union.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ What I collect from your users  The rating The answer Parts of the URL (only the
       
       <guid>https://likeknob.com/terms/</guid>
       <description>By using this website and this service, you are agreeing to be bound by this Terms.
-A. Definitions  &amp;ldquo;LikeKnob&amp;rdquo;, &amp;ldquo;I&amp;rdquo;, &amp;ldquo;me&amp;rdquo; refers to me, the owner, developer and person responsible for this site. The &amp;ldquo;Service&amp;rdquo; refers to the applications, dashboards, websites, software, products and services “The User,” “You,” and “Your” refer to the individual person, company, or organization that has visited or is using the Website or Service; that accesses or uses any part of the Account; or that directs the use of the Account in the performance of its functions.</description>
+A. Definitions &amp;ldquo;LikeKnob&amp;rdquo;, &amp;ldquo;I&amp;rdquo;, &amp;ldquo;me&amp;rdquo; refers to me, the owner, developer and person responsible for this site. The &amp;ldquo;Service&amp;rdquo; refers to the applications, dashboards, websites, software, products and services “The User,” “You,” and “Your” refer to the individual person, company, or organization that has visited or is using the Website or Service; that accesses or uses any part of the Account; or that directs the use of the Account in the performance of its functions.</description>
     </item>
     
     <item>

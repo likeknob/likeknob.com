@@ -27,7 +27,7 @@ var maxWidth = 215 // max width of rating bar and tooltip var defaultOptions = {
       <guid>https://likeknob.com/docs/gdpr/</guid>
       <description>The General Data Protection Regulation is a law which protects the data and privacy from all EU-citizens.
 The answers which your users provide to LikeKnob could be seen as personal data from regulators, so the GDPR also applies to LikeKnob.
-What I collect from your users  The rating The answer Parts of the URL (only the pathname, e.g. `/privacy) The date / timestamp when the rating was collected  Where this data is stored The data is store within a european (German) Data Center, so you don&amp;rsquo;t have to worry about Privacy Shield and data being exported out of the European Union.</description>
+What I collect from your users The rating The answer Parts of the URL (only the pathname, e.g. `/privacy) The date / timestamp when the rating was collected Where this data is stored The data is store within a european (German) Data Center, so you don&amp;rsquo;t have to worry about Privacy Shield and data being exported out of the European Union.</description>
     </item>
     
   </channel>
